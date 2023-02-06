@@ -10,11 +10,11 @@ public class InvalidDataTest extends BaseTest{
     @DataProvider
     public Object[][] invalidData(){
         return new Object[][]{
-//                {"Login", ""},
-//                {"", "Password"},
-//                {"", ""},
-//                {"1", "Password"},
-//                {"Login", "@+$%#^&*!"},
+                {"Login", ""},
+                {"", "Password"},
+                {"", ""},
+                {"1", "Password"},
+                {"Login", "@+$%#^&*!"},
                 {"Login@+$%#^&*!", "Password"},
                 {"Qwerty", "!@#$%^&*()_+|:/?.>,<~`rLjDGXlxxXnYzJSFEsuAOIjIBQomwwftM"},
                 {"rLjDGXlxxXnYzJSFEsuAOIjIBQomwwftMiKsTvwbOKKQrTuMfbTbzQq", "Password"},
